@@ -56,7 +56,7 @@ const questions = [
         name: 'license',
         message: 'Choose a license for your project by selecting a number.',
         choices: [
-            'Apache license 2.0',
+            'Apache License 2.0',
             'Creative Commons Zero v1.0 Universal',
             'Do What The F*ck You Want To Public License',
             'GNU General Public License v3.0',
