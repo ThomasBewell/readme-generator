@@ -68,11 +68,27 @@ const questions = [
     }
 ];
 
+// Prompt function
+let promptUser = () => {
+    return inquirer.prompt(questions);
+}
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+const writeToFile = util.promisify(fs.writeFile);
 
 // TODO: Create a function to initialize app
-function init() {}
+let init = async () => {
+    console.log('Welcome to the README.md file generator. Follow the prompts to create a README.md file.');
+    try {
+        const answers = await promptUser();
+        console.log(answers);
+        const readme = generateMarkdown(answers);
+        await writeToFile('README_demo.md', readme);
+        console.log('Successfully created README_demo.md');
+    } catch (err) {
+        console.log(err);
+    }
+}
 
 // Function call to initialize app
 init();
