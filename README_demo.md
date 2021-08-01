@@ -1,8 +1,8 @@
 # title
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  dec
+  description
 
   ## Table of Contents
   * [Installation](#installation)
@@ -13,21 +13,21 @@
   * [License](#license)
   
   ## Installation
-  shsjhsj
+  instructions for installation
 
   ## Usage
-  djdj
+  examples
 
   ## Contributing
-  dhdh
+  https://github.com/JohnDoe
 
   ## Tests
-  dd
+  test instructions
 
   ## Questions
-  Email: dhdjh
-  GitHub: [djd](https://github.com/djd)
-  dhd
+  Email: tombewell@gmail.com
+  GitHub: [ThomasBewell](https://github.com/ThomasBewell)
+  reach me here
 
   ## License
-  This project is licensed under the terms of the Apache license 2.0 license.
+  This project is licensed under the terms of the MIT license.
